@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6o0129/v1
+canonical_location: https://kanripo.org/bkk/KR6o0129/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 龍樹菩薩勸誡王頌
+  identifiers:
+    alt_id:
+    - T32n1674
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1674.xml
+    old_id: T32n1674
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0129_000.yaml, hash: 'sha256:0e69d4ce0686ba8b1c6294ac6445cf6546013111e72917ed3baf398531aedaab'}
+  - {seq: 1, filename: KR6o0129_001.yaml, hash: 'sha256:7cd3c415fad55e8dfa759b0019f41e8a96f64c576ab183161722fc031ac63927'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6o0129_001.markers.yaml, hash: 'sha256:7f706a0a13dd70ac438e1b1f931be0cc018ed8c9701461f37d53b2587bf9fd0a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6o0129_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2895
+  label: 龍樹菩薩勸誡王頌
+  type: juan
+  level: 1
+hash: sha256:8a3fcfb2973a1ae7ec97ae65a58706547774549116f6a08b5d61a9d6600f3a6d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
